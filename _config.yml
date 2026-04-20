@@ -1,0 +1,21 @@
+brand_colors:
+  lila: "#e3bbff"
+  crema_gris: "#fcf2c8"
+  azul_petroleo: "#4b4b66"
+  rosado: "#f89cff"
+
+fonts:
+  logo: "'Pixelify Sans', sans-serif"
+  titles: "'Overpass Mono', monospace"
+  paragraphs: "'Space Grotesk', sans-serif"
+
+# Menú configurable
+navigation:
+  - title: "INICIO"
+    url: "/"
+  - title: "PROYECTOS"
+    url: "/proyectos/"
+  - title: "ACTIVIDADES"
+    url: "/actividades/"
+  - title: "CONTACTO"
+    url: "/contacto/"

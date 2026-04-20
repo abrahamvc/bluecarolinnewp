@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#main_container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    min-height: 100vh; 
+    width: 100%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 2rem;
+    gap: 20px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Overpass Mono', monospace;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+
+.home_container{
+    display: grid;
+    grid-template-columns: 1fr 20px 1.5fr;
+    min-height: 100%;
+}
+
+.home_principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+    grid-column: 1;
+    
+}
+
+.home_principal button{
+    color: white;
+    background-color: #f89cff;
+    border-radius: 50px;
+    height: 40px;
+    width: 100px;
+}
+
+.line {
+    position: absolute;
+    left: 35%;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    z-index: 5;
+    
+    background-image: url('../images/line.svg');
+    background-size: 100% 20%;
+    background-repeat: repeat-y;
+}
+
+.home_content {
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_content p{
+    font-family: 'Space Grotesk', sans-serif;
+    max-width: 600px;
+}
+.home_content h1{
+    font-family: 'Pixelify Sans', sans-serif;
+}
+

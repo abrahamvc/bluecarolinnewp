@@ -1,0 +1,34 @@
+---
+---
+// Importar fuentes desde Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Space+Grotesk:wght@300..700&family=Overpass+Mono:wght@300..700&display=swap');
+
+:root {
+  --color-lila: {{ site.brand_colors.lila }};
+  --color-gris: {{ site.brand_colors.crema_gris }};
+  --color-azul: {{ site.brand_colors.azul_petroleo }};
+  --color-rosado: {{ site.brand_colors.rosado }};
+}
+
+body {
+  background-color: var(--color-lila);
+  font-family: {{ site.fonts.paragraphs }};
+  color: var(--color-azul);
+}
+
+h1, h2, h3 {
+  font-family: {{ site.fonts.titles }};
+}
+
+.logo-text {
+  font-family: {{ site.fonts.logo }};
+  color: var(--color-azul);
+}
+
+.banner-intereses {
+  background-color: var(--color-gris);
+}
+
+.boton-cv {
+  background-color: var(--color-rosado);
+}
