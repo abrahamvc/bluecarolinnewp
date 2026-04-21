@@ -1,0 +1,15 @@
+- name: instagram
+  icon: /assets/icons/instagram.svg
+  url: https://www.instagram.com/blue.carolinne
+
+- name: youtube
+  icon: /assets/icons/youtube.svg
+  url: https://www.youtube.com/@ada_blu
+
+- name: github
+  icon: /assets/icons/github.svg
+  url: https://github.com/blueCarolinne
+
+- name: gmail
+  icon: /assets/icons/gmail.svg
+  url: https://www.google.cl
