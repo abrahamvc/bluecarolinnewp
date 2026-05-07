@@ -116,3 +116,31 @@ html, body {
     height: 50px;
     margin: 0 10px;
 }
+
+.project_container {
+    display: grid;
+    grid-row: 2;
+    grid-template-rows: 0.5fr 1fr;
+    min-height: 100%; 
+}
+
+.project_container  .publications{
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+.project_container  .projects{
+    margin-left: 10em;
+}
+
+.project_container .projects .project_details {
+    display: grid;
+    grid-column: 3;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.project_container .projects .project_details img {
+    max-width: 100%;
+    height: auto;
+}
