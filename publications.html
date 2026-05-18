@@ -1,0 +1,24 @@
+---
+layout: default
+permalink: /publications/
+---
+
+
+<div class="publications_container">
+    <div class="publications">
+        <h1>PUBLICACIONES</h1>
+        <ul>
+            {% for publication in site.data.publications_publications %}
+                <li><a href="{{ publication.url }}">{{ publication.name }}</a> - DOI: {{ publication.doi }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="press_release">
+        <h1>NOTAS DE PRENSA</h1>
+        <ul>
+            {% for press in site.data.publications_press %}
+                <li><a href="{{ press.url }}">{{ press.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>

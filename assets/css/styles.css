@@ -116,3 +116,74 @@ html, body {
     height: 50px;
     margin: 0 10px;
 }
+
+
+.project_container {
+    display: grid;
+    grid-row: 2;
+    min-height: 100%; 
+    margin-left: 10em;
+}
+
+
+.project_container .project_details {
+    display: grid;
+    grid-row: 2;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px; 
+    
+}
+
+.project_container .project_details .project_title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 20px;
+
+}
+
+.project_container .project_details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.publications_container {
+    display: grid;
+    grid-row: 2;
+    grid-template-rows: 0.5fr 1fr;
+    min-height: 100%; 
+}
+
+.publications_container  .publications{
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+.publications_container  .press_release{
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+
+.project_entry_container {
+    display: grid;
+    grid-template-rows: 0.1fr 1fr 0.1fr;
+    min-height: 100%; 
+    margin-left: 10em;
+    justify-items: center; 
+}
+
+.project_entry_container .content{
+    grid-row: 2;
+    width: 100%;
+    max-width: 75ch;
+    padding: 0 20px;
+}
+
+.project_entry_container .content .md-icon {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 4px;
+}

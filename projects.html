@@ -2,4 +2,16 @@
 layout: default
 permalink: /projects/
 ---
-<p>WIP</p>
+<div class="project_container">
+    <h1>PROYECTOS</h1>
+    <div class="project_details">
+        {% for project_detail in site.projects %}
+            <a href="{{ project_detail.url | relative_url }}">
+                <div>
+                    <img src="{{ project_detail.img | relative_url }}" alt="">
+                    <div class="project_title">{{project_detail.name}}</div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</div>
