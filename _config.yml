@@ -20,5 +20,12 @@ navigation:
     url: "/projects/"
   - title: "ACTIVIDADES"
     url: "/activities/"
+  - title: "PUBLICACIONES"
+    url: "/publications/"
   - title: "CONTACTO"
     url: "/contact/"
+  
+collections:
+  projects:
+    output: true
+    permanlink: /projects/:path/
