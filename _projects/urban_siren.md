@@ -1,7 +1,7 @@
 ---
 layout: project_entry
 name: "Urban Siren"
-img: "assets/images/project_robot.PNG"
+img: "assets/images/urban_siren.jpg"
 ---
 
 Urban Siren es una pieza wearable de robótica blanda inspirada en la estructura de las aletas del pez león. A través de pliegues reforzados y módulos inflables, el proyecto explora la suavidad no solo como material o mecanismo, sino también como una forma de expresión, percepción y presencia.

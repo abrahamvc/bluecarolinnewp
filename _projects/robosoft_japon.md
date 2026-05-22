@@ -1,7 +1,7 @@
 ---
 layout: project_entry
 name: "RoboSoft Japón"
-img: "assets/images/project_robot.PNG"
+img: "assets/images/robosoft_japon.jpg"
 ---
 
 Este año 2026 tuve la oportunidad de participar en RoboSoft, una de las conferencias más importantes del mundo en robótica blanda, este año fue realizada en Japón. Fue una experiencia muy especial donde pude presentar proyectos, conocer investigaciones increíbles y conectar con personas de distintas partes del mundo que trabajan en robótica, arte, interacción y tecnología.
