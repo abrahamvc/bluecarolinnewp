@@ -1,7 +1,7 @@
 ---
 layout: project_entry
 name: "Tutoriales"
-img: "assets/images/project_robot.PNG"
+img: "assets/images/tutorials.jpg"
 ---
 
 
