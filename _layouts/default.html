@@ -12,7 +12,15 @@
 </head>
 <body>
     <div id="main_container">
-        <div class="navbar">{% include menu.html %}</div>
+        <div class="navbar">
+            <a href="{{ '/' | relative_url }}" class="logo-link">
+                <img src="{{ '/assets/images/favicon.ico' | relative_url }}" alt="Logo">
+            </a>
+
+            <div class="menu-container">
+                {% include menu.html %}
+            </div>
+        </div>
         <div class="content">{{ content }}</div>
     </div>
 </body>
