@@ -8,12 +8,35 @@
   --color-gris: {{ site.brand_colors.crema_gris }};
   --color-azul: {{ site.brand_colors.azul_petroleo }};
   --color-rosado: {{ site.brand_colors.rosado }};
+  --color-gris-claro: {{ site.brand_colors.gris_claro}};
+
 }
 
 body {
   background-color: var(--color-lila);
   font-family: {{ site.fonts.paragraphs }};
   color: var(--color-azul);
+}
+
+a {
+  color: white;
+}
+
+a:visited {
+  color: rgb(57, 49, 144);
+}
+
+#main_menu {
+  a {
+    color: black;
+    &:hover {
+      color: black;
+    }
+    &:visited {
+      color: black;
+    }
+  }
+  
 }
 
 h1, h2, h3 {
