@@ -12,35 +12,12 @@ html, body {
     width: 100%;
 }
 
-.navbar {
+.navbar{
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     padding: 1rem 2rem;
-    width: 100%;
     gap: 20px;
-    box-sizing: border-box;
 }
-
-.logo-link {
-    position: fixed !important;
-    top: 12px !important;
-    left: 18px !important;
-    z-index: 9999 !important;
-}
-
-.logo-link img {
-    width: 30px !important;
-    height: 30px !important;
-    object-fit: contain;
-    border-radius: 0 !important;
-}
-
-.menu-container {
-    display: flex;
-    gap: 50px;
-}
-
 
 .nav-link {
     text-decoration: none;
@@ -131,14 +108,13 @@ html, body {
 
 .home_content .home_social_media{
     display: flex;
-    flex-direction: row;
+    flex-direction: rows;
 }
 
 .home_social_media a {
     width: 50px;
     height: 50px;
     margin: 0 10px;
-
 }
 
 
@@ -160,7 +136,7 @@ html, body {
 }
 
 .project_container .project_details .project_title {
-    font-size: 1 rem;
+    font-size: 1.5rem;
     font-weight: bold;
     margin-left: 20px;
 

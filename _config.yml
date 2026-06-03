@@ -6,8 +6,6 @@ brand_colors:
   crema_gris: "#fcf2c8"
   azul_petroleo: "#4b4b66"
   rosado: "#f89cff"
-  gris_claro: "e4e4e4"
-
 
 fonts:
   logo: "'Pixelify Sans', sans-serif"
@@ -19,15 +17,15 @@ navigation:
   - title: "INICIO"
     url: "/"
   - title: "PROYECTOS"
-    url: "/proyectos/"
+    url: "/projects/"
   - title: "ACTIVIDADES"
-    url: "/actividades/"
+    url: "/activities/"
   - title: "PUBLICACIONES"
-    url: "/publicaciones/"
+    url: "/publications/"
   - title: "CONTACTO"
-    url: "/contacto/"
+    url: "/contact/"
   
 collections:
-  proyectos:
+  projects:
     output: true
-    permanlink: /proyectos/:title/
+    permanlink: /projects/:path/
