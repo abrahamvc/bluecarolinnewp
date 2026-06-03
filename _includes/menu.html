@@ -1,4 +1,4 @@
-<nav id="main_menu" class="navbar">
+<nav class="navbar">
   {% for link in site.navigation %}
     <a href="{{ link.url | relative_url }}" 
        class="nav-link {% if page.url == link.url %}active{% endif %}">
