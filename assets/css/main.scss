@@ -86,11 +86,12 @@ h1, h2, h3 {
     box-shadow: 4px 4px 0 black;
 }
 
-.project_entry_container .content a {
+.btn-link {
     display: inline-block;
-    background-color: var(--color-rosado);
 
+    background-color: var(--color-rosado);
     color: black;
+
     text-decoration: none;
 
     padding: 5px 14px;
@@ -100,13 +101,18 @@ h1, h2, h3 {
     border-radius: 10px;
 
     transition: all 0.2s ease;
-    
 }
 
-.project_entry_container .content a:hover {
+.btn-link:hover {
     background-color: var(--color-lila);
+    color: black;
+
     box-shadow: 3px 3px 0 black;
     transform: translateY(-2px);
+}
+
+.btn-link:visited {
+    color: black;
 }
 
 .project_entry_container .content ul {
@@ -122,6 +128,12 @@ h1, h2, h3 {
     transition: transform 0.2s ease;
 }
 
-.project_details a:hover > div {
-    transform: translateY(-20px);
+.project_container .project_details img {
+
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+.project_details a:hover img {
+    filter: grayscale(0%);
+    transform: translateY(-10px);
 }
