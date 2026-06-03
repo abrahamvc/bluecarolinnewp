@@ -1,6 +1,6 @@
 ---
 layout: project_entry
-name: "RoboSoft Japón"
+name: "RoboSoft 2026 Japón"
 img: "assets/images/robosoft_japon.jpg"
 ---
 
