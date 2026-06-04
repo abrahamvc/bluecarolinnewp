@@ -8,8 +8,11 @@ SpiRobs es un proyecto de robótica blanda inspirado en un artículo open-source
 
 Este proyecto fue una mezcla entre curiosidad, fabricación manual, geometría y movimiento, explorando cómo estructuras simples pueden transformarse en sistemas robóticos sorprendentemente expresivos.
 
-<img class="md-icon" src="{{ '/assets/icons/github.svg' | relative_url }}" alt="GitHub Icon">
-<a href="https://github.com/blueCarolinne/spirobsOrigamiVersion" class="btn-link">
+<img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon">
+<a href="https://github.com/blueCarolinne/spirobsOrigamiVersion" 
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
     Repositorio
 </a>
 

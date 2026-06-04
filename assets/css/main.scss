@@ -103,6 +103,28 @@ h1, h2, h3 {
     color: black;
 }
 
+.btn-special,
+.btn-special:visited,
+.btn-special:link {
+    color: var(--color-lila);
+    background-color: var(--color-azul);
+    text-decoration: none;
+    padding: 1px 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+    transition: all 0.2s ease;
+}
+
+
+.btn-special:hover {
+    box-shadow: 4px 4px 0 black;
+    background-color: black;
+    color: var(--color-lila);
+
+    transform: translateY(-2px);
+}
+
+
 .project_container .project_details img {
     max-width: 100%;
     height: auto;

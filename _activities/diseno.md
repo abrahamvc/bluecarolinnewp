@@ -3,7 +3,9 @@ layout: project_entry
 name: "Diseño de identidad"
 ---
 ## Diseño de Logotipos
-En mi faceta de diseñadora, realicé diversas piezas gráficas en cuanto a diseño de identidad. Entre ellas se encuentran laborarios de Robótica, física y acústica, bioinformática, biomédica, educativos, entre otros.
+En mi faceta como diseñadora, realicé diversas piezas gráficas de identidad visual para proyectos académicos, educativos y de investigación. Entre ellos se encuentran laborarios de robótica, física y acústica, bioinformática, biomédica, entre otros.
+
+Aquí algunos de ellos:
 
 <div class="logo-gallery">
 
@@ -24,7 +26,7 @@ En mi faceta de diseñadora, realicé diversas piezas gráficas en cuanto a dise
 
 ## Diseño de Identidad gráfica - Conferencias
 
-También realicé diseños para conferencias de Robótica.
+Un hito importante para mi fue tambien realizar diseños para conferencias de Robótica. 
 
 -   ### LACORO, 2024 
     Organizada por la Universidad de O'Higgins.
