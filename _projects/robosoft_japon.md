@@ -36,3 +36,11 @@ Les comparto algunos reels en mi instagram de esta experiencia (próximamente un
     rel="noopener noreferrer">
     RoboSoft resumen
 </a>
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.robosoft2026.org/program/art-gallery/"  
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    Art Gallery - RoboSoft 2026
+</a>

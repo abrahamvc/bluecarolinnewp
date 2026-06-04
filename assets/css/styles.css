@@ -346,3 +346,36 @@ html, body {
 .photo-gallery figure:hover figcaption {
     opacity: 1;
 }
+
+
+
+.profile-container {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-image{
+    display:block;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.profile-image.photo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+
+    width: 103%;
+    height: 103%;
+    object-fit: cover;
+}
+
+.profile-container:hover .photo{
+    opacity: 1;
+}
+
+.profile-container:hover .drawing{
+    opacity:0;
+}
