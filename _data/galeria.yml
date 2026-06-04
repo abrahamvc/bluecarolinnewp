@@ -1,0 +1,19 @@
+- title: "Cosplay - Dra. Octopus"
+  image: "/assets/images/galeria/draoctopus.jpeg"
+  class: "tall"
+
+- title: "Botón, el ratón animatrónico"
+  image: "/assets/images/galeria/boton2.png"
+  class: "normal"
+
+- title: "Pomodoronion. Asistente de estudio"
+  image: "/assets/images/galeria/pomodoronion.png"
+  class: "normal"
+
+- title: "En RoboSoft 2026 - Japón"
+  image: "/assets/images/galeria/robosoft.jpeg"
+  class: "normal"
+
+- title: "Dispositivo wearable: Urban Siren"
+  image: "/assets/images/galeria/siren.png"
+  class: "wide"
