@@ -16,6 +16,15 @@ body {
   color: var(--color-azul);
 }
 
+a{
+  color: black
+}
+
+a:visited{
+  color: var(--color-azul)
+}
+
+
 h1, h2, h3 {
   font-family: {{ site.fonts.titles }};
 }
@@ -92,4 +101,23 @@ h1, h2, h3 {
 
 .btn-back:visited {
     color: black;
+}
+
+.project_container .project_details img {
+    max-width: 100%;
+    height: auto;
+
+    border-radius: 20px;
+
+    filter: grayscale(100%);
+    transition: all 0.3s ease;
+}
+
+.project_details a:hover img {
+    filter: grayscale(0%);
+    transform: translateY(-10px);
+}
+
+.project_container .project_details a {
+    text-decoration: none;
 }
