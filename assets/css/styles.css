@@ -142,17 +142,17 @@ html, body {
 
 }
 
-
 .project_container .project_details img {
     max-width: 100%;
     height: auto;
 }
 
 .publications_container {
-    display: grid;
-    grid-row: 2;
-    grid-template-rows: 0.5fr 1fr;
-    min-height: 100%; 
+ 
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    margin: 5em 10em;
 }
 
 .publications_container  .publications{
@@ -164,6 +164,58 @@ html, body {
     margin-left: 10em;
     margin-top: 5em;
 }
+
+.publications_container  .participaciones{
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+.pub-card {
+    display: grid;
+    grid-template-columns: 120px 280px 1fr;
+    align-items: center;
+    gap: 30px;
+
+    padding: 25px;
+    border-radius: 25px;
+    opacity: 0.9;
+    transition: all 0.3s ease;
+
+}
+
+.pub-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+
+}
+
+.pub-card h1 {
+    font-size: 1.6rem;
+}
+
+.pub-content {
+    max-height: 40px;
+    overflow: hidden;
+    opacity: 0.6;
+    transition: all 0.4s ease;
+}
+
+.pub-card:hover .pub-content {
+    max-height: 500px;
+    opacity: 1;
+}
+
+.pub-card:hover {
+    opacity: 1;
+}
+
+.pub-card img {
+    transition: all 0.3s ease;
+}
+
+
+
 
 
 .project_entry_container {
@@ -190,3 +242,50 @@ html, body {
     margin: 0 4px;
 }
 
+.activities_container {
+    margin-left: 10em;
+    margin-top: 5em;
+}
+
+.activities_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 80px;
+    margin-top: 4em;
+}
+
+.activity-card {
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.activity-card img {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+
+    transition: all 0.3s ease;
+    filter: grayscale(100%);
+}
+
+.activity-card:hover img {
+    transform: translateY(-10px);
+    filter: grayscale(0%);
+    transform: tr
+}
+
+.activity-card h2 {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.activity-card p {
+    font-size: 0.95rem;
+    color: black;
+
+    max-width: 250px;
+    margin: 10px auto 0 auto;
+
+    line-height: 1.4;
+}

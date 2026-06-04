@@ -22,8 +22,8 @@ navigation:
     url: "/actividades/"
   - title: "PUBLICACIONES"
     url: "/publicaciones/"
-  - title: "CONTACTO"
-    url: "/contacto/"
+  - title: "GALERÍA"
+    url: "/galeria/"
   
 collections:
   projects:
