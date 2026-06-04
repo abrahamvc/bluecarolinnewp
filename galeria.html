@@ -2,3 +2,16 @@
 layout: default
 permalink: /galeria/
 ---
+
+<div class="gallery_container">
+    <h1>GALERÍA</h1>
+
+    <div class="photo-gallery">
+        {% for item in site.data.galeria %}
+            <figure class="{{ item.class }}">
+                <img src="{{ item.image | relative_url }}" alt="{{ item.title }}">
+                <figcaption>{{ item.title }}</figcaption>
+            </figure>
+        {% endfor %}
+    </div>
+</div>
