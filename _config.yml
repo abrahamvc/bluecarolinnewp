@@ -17,13 +17,13 @@ navigation:
   - title: "INICIO"
     url: "/"
   - title: "PROYECTOS"
-    url: "/projects/"
+    url: "/proyectos/"
   - title: "ACTIVIDADES"
-    url: "/activities/"
+    url: "/actividades/"
   - title: "PUBLICACIONES"
-    url: "/publications/"
+    url: "/publicaciones/"
   - title: "CONTACTO"
-    url: "/contact/"
+    url: "/contacto/"
   
 collections:
   projects:
