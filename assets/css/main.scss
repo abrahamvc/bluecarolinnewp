@@ -32,3 +32,64 @@ h1, h2, h3 {
 .boton-cv {
   background-color: var(--color-rosado);
 }
+
+.btn-link {
+    display: inline-block;
+
+    background-color: var(--color-rosado);
+    color: black;
+
+    text-decoration: none;
+
+    padding: 5px 14px;
+
+    border: 1px solid black;
+    border-radius: 10px;
+
+    transition: all 0.2s ease;
+}
+
+.btn-link:hover {
+    background-color: var(--color-lila);
+    color: black;
+
+    box-shadow: 3px 3px 0 black;
+    transform: translateY(-2px);
+}
+
+.btn-link:visited {
+    color: black;
+}
+
+.project_entry_container .content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.btn-back {
+    display: inline-block;
+
+    background-color: var(--color-gris);
+    color: black;
+
+    text-decoration: none;
+
+    padding: 10px 18px;
+
+    border: 2px solid black;
+    border-radius: 12px;
+
+    transition: all 0.2s ease;
+}
+
+.btn-back:hover {
+    box-shadow: 4px 4px 0 black;
+    transform: translateY(-2px);
+}
+
+.btn-back:visited {
+    color: black;
+}
