@@ -29,3 +29,7 @@ collections:
   projects:
     output: true
     permanlink: /projects/:path/
+
+  activities:
+    output: true
+    permanlink: /activities/:path/
