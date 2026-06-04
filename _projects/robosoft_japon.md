@@ -12,17 +12,27 @@ Japón terminó siendo una inspiración enorme tanto a nivel tecnológico como a
 
 Les comparto algunos reels en mi instagram de esta experiencia (próximamente un video en Youtube)
 
-- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> 
-<a href="https://www.instagram.com/p/DWWrbFjjRH1/?img_index=1" class="btn-link">
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.instagram.com/p/DWWrbFjjRH1/?img_index=1"  
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
     ¡Nos vamos a Japón!
 </a>
 
-- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> 
-<a href="https://www.instagram.com/p/DW9h9KkEr2D/" class="btn-link">
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.instagram.com/p/DW9h9KkEr2D/" 
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
     To touch a story
 </a>
 
-- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> 
-<a href="https://www.instagram.com/p/DXNIIlriDo-/" class="btn-link">
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.instagram.com/p/DXNIIlriDo-/"  
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
     RoboSoft resumen
 </a>

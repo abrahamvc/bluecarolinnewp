@@ -5,12 +5,13 @@ name: "Organizaciones"
 
 ## Niñas Pro
 
-Es una Organización sin fines de lucro donde las niñas pueden aprender habilidades de programación, IA, electrónica, robótica y más temas STEM.
-El trabajo de Niñas Pro es apoyar a las niñas a conocer este mundo antes de elegir una carrera y cuando sea el momento estén mucho más preparadas. Además, de darles toda la fuerza y confianza en ellas, creando un ambiente seguro.
+Niñas Pro es una organización sin fines de lucro donde niñas y adolescentes pueden aprender programación, inteligencia artificial, electrónica, robótica y otros temas STEM.
 
-Participé en Niñas pro durante varios años principalmente como profesora del curso de Arduino Quest (un curso mensual que se dicta al año). Muy bonita experiencia, lo hicimos de manera remota y el 20205 mixta, entre clases online y presenciales.
+Su objetivo es acercarlas a este mundo antes de elegir una carrera, para que puedan tomar decisiones más informadas y llegar mejor preparadas a esa etapa. También busca fortalecer su confianza y motivación, generando un ambiente cercano y seguro para aprender.
 
-Estén atentas/os a sus redes sociales para las inscripciones de las niñas. Son gratuitas y se encuentran en diferentes ciudades de Chile, con modalidades online y presencial en algunas sedes. 
+Participé durante varios años principalmente como profesora del curso Arduino Quest, un curso que se realiza anualmente. Fue una experiencia muy bonita, primero de manera remota y luego, durante 2025, en un formato mixto con actividades online y presenciales.
+
+Les recomiendo estar atentas/os a sus redes sociales para las próximas inscripciones. Los cursos son gratuitos y se desarrollan en distintas ciudades de Chile, con modalidades online y presencial según la sede.
 
 - <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
 <a href="https://www.instagram.com/ninas_pro" 
@@ -37,13 +38,33 @@ Estén atentas/os a sus redes sociales para las inscripciones de las niñas. Son
 </a>
 
 ¿Te gustaría ser voluntaria/o en esta linda organización?
+
+<a href="mailto:contacto@ninaspro.cl" 
+    class="btn-special"
+    target="_blank"
+    rel="noopener noreferrer">
+    Enviar correo
+</a>
+
 ¿Te gustaría apoyar a Niñas Pro con donaciones?
+
+<a href="https://yodono.cl/proyecto/395/NiasProMujeresProinspirandovocacionesenniasdeChile" 
+    class="btn-special"
+    target="_blank"
+    rel="noopener noreferrer">
+    Donaciones Niñas Pro
+</a>
+
+<div class="section-divider"></div>
+
 
 ## Beauchef Robotics Challenge
 
-Un Festival de Robótica estudiantil que lo organiza el FabLab de la Universidad de Chile. Este evento se realiza anualmente en la Facultad de Ciencias Físicas y Matemáticas entre octubre y noviembre de cada año.
+El Festival de Robótica es un evento estudiantil organizado por el FabLab de la Universidad de Chile. Se realiza anualmente en la Facultad de Ciencias Físicas y Matemáticas, generalmente entre octubre y noviembre.
 
-Durante este festival se encuentran la feria de Robótica con stands de laboratorios de robótica, empresas tecnológicas y otras organizaciones invitadas. Paralamente ocurre el evento principal: competencia de robots! Las principales ligas son Robots Velocistas y Battlebots. 
+Durante el festival se desarrollan distintas actividades relacionadas con la robótica y la tecnología. Una de ellas es la Feria de Robótica, donde participan laboratorios, empresas tecnológicas y organizaciones invitadas que presentan sus proyectos y desarrollos.
+
+Y el evento principal: Competencia Robótica! Que reúne a estudiantes y entusiastas de distintas partes del país. Entre las ligas se encuentran Robots Velocistas y Battlebots.
 
 ¡Siempre hay sorpresas!
 ¡Atentas/os a sus redes sociales!
@@ -55,6 +76,7 @@ Durante este festival se encuentran la feria de Robótica con stands de laborato
     rel="noopener noreferrer">
     Instagram FabLab U de Chile
 </a>
+
 
 - <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
 <a href="https://www.instagram.com/brc.chile/" 
