@@ -16,4 +16,28 @@
 
 - title: "Dispositivo wearable: Urban Siren"
   image: "/assets/images/galeria/siren.png"
-  class: "wide"
+  class: "normal"
+
+- title: "Cosplay - Ratatouille"
+  image: "/assets/images/galeria/boton_chef.jpeg"
+  class: "normal"
+
+- title: "Charla: Dar vida a Objetos inanimados"
+  image: "/assets/images/galeria/boton_presentacion.jpg"
+  class: "normal"
+
+- title: "Sticker Botón"
+  image: "/assets/images/galeria/boton_sticker.jpg"
+  class: "normal"
+
+- title: "Sticker Pomodoronion"
+  image: "/assets/images/galeria/pomodoronion_sticker.jpg"
+  class: "normal"
+
+- title: "Art Gallery RoboSoft - To Touch a Story"
+  image: "/assets/images/galeria/marshmellow.jpg"
+  class: "tall"
+
+- title: "Steamista"
+  image: "/assets/images/galeria/steamista.jpg"
+  class: "normal"  
