@@ -12,8 +12,17 @@ Japón terminó siendo una inspiración enorme tanto a nivel tecnológico como a
 
 Les comparto algunos reels en mi instagram de esta experiencia (próximamente un video en Youtube)
 
-- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> [¡Nos vamos a Japón!](https://www.instagram.com/p/DWWrbFjjRH1/?img_index=1)
+- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> 
+<a href="https://www.instagram.com/p/DWWrbFjjRH1/?img_index=1" class="btn-link">
+    ¡Nos vamos a Japón!
+</a>
 
-- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> [To touch a story](https://www.instagram.com/p/DW9h9KkEr2D/)
+- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> 
+<a href="https://www.instagram.com/p/DW9h9KkEr2D/" class="btn-link">
+    To touch a story
+</a>
 
-- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> [RoboSoft resumen](https://www.instagram.com/p/DXNIIlriDo-/)
+- <img class="md-icon" src="{{ '/assets/icons/instagram.svg' | relative_url }}" alt="Instagram Icon"> 
+<a href="https://www.instagram.com/p/DXNIIlriDo-/" class="btn-link">
+    RoboSoft resumen
+</a>
