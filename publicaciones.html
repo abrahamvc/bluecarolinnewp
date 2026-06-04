@@ -5,20 +5,47 @@ permalink: /publicaciones/
 
 
 <div class="publications_container">
-    <div class="publications">
-        <h1>PUBLICACIONES</h1>
-        <ul>
-            {% for publication in site.data.publications_publications %}
-                <li><a href="{{ publication.url }}">{{ publication.name }}</a> - DOI: {{ publication.doi }}</li>
-            {% endfor %}
-        </ul>
+
+  <div class="pub-card">
+    <img src="{{ '/assets/images/bluecarolinne-02.png' | relative_url }}" alt="">
+    <h1>PUBLICACIONES</h1>
+
+    <div class="pub-content">
+      <ul>
+        {% for publication in site.data.publications_publications %}
+          <li><a href="{{ publication.url }}">{{ publication.name }}</a> — DOI: {{ publication.doi }}</li>
+        {% endfor %}
+      </ul>
     </div>
-    <div class="press_release">
-        <h1>NOTAS DE PRENSA</h1>
-        <ul>
-            {% for press in site.data.publications_press %}
-                <li><a href="{{ press.url }}">{{ press.title }}</a></li>
-            {% endfor %}
-        </ul>
+  </div>
+
+  <div class="pub-card">
+    <img src="{{ '/assets/images/bluecarolinne-03.png' | relative_url }}" alt="">
+    <h1>NOTAS DE PRENSA</h1>
+
+    <div class="pub-content">
+      <ul>
+        {% for press in site.data.publications_press %}
+          <li><a href="{{ press.url }}">{{ press.title }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
+  </div>
+
+  <div class="pub-card">
+    <img src="{{ '/assets/images/bluecarolinne-04.png' | relative_url }}" alt="">
+    <h1>PARTICIPACIONES</h1>
+
+    <div class="pub-content">
+      <ul>
+        {% for participacion in site.data.publications_participaciones %}
+          <li>
+            <a href="{{ participacion.url }}">{{ participacion.name }}</a>
+            — {{ participacion.type }} — {{ participacion.date }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
 </div>
