@@ -136,11 +136,12 @@ html, body {
 }
 
 .project_container .project_details .project_title {
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: bold;
     margin-left: 20px;
 
 }
+
 
 .project_container .project_details img {
     max-width: 100%;
@@ -169,8 +170,9 @@ html, body {
     display: grid;
     grid-template-rows: 0.1fr 1fr 0.1fr;
     min-height: 100%; 
-    margin-left: 10em;
+    margin-left: none;
     justify-items: center; 
+    background-color: #f5f5f5;
 }
 
 .project_entry_container .content{
@@ -187,3 +189,4 @@ html, body {
     vertical-align: middle;
     margin: 0 4px;
 }
+
