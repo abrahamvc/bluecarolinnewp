@@ -3,6 +3,11 @@ layout: project_entry
 name: "La Mapache Azul"
 ---
 
+<img src="{{ '/assets/images/caro_lma.jpg' | relative_url }}"
+    alt="La Mapache Azul"
+    class="img-right">
+
+
 La Mapache Azul nació como una forma de unir mis intereses por la tecnología, la ilustración y la educación. A través de productos y proyectos creativos, mi idea es acercar conceptos de ciencia, programación, electrónica y robótica a más personas de una manera indirecta (y directa a la vez), como también visual.
 
 Es una tienda virtual, te invito a pasar por ahí y puedas "vitrinear".
@@ -31,5 +36,7 @@ Es una tienda virtual, te invito a pasar por ahí y puedas "vitrinear".
     rel="noopener noreferrer">
     Producto: Kit Arduino
 </a>
+
+
 
 (Si llegaste hasta acá, te regalo este código de descuento "BLUEMAPACHE")

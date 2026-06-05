@@ -70,6 +70,28 @@ h1, h2, h3 {
     color: black;
 }
 
+.img-right {
+    float: right;
+
+    width: 300px;
+    max-width: 40%;
+
+    margin-left: 30px;
+    margin-bottom: 20px;
+
+    border-radius: 20px;
+}
+
+.img-small {
+
+    display: block;
+    width: 400px;
+    max-width: 70%;
+    border-radius: 20px;
+    margin:auto;
+}
+
+
 .project_entry_container .content ul {
     list-style: none;
     padding-left: 0;
@@ -165,7 +187,6 @@ h1, h2, h3 {
 
 .logo-gallery img:hover {
     transform: translateY(-8px);
-    box-shadow: 4px 4px 0 black;
 }
 
 .branding-gallery{
