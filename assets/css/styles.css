@@ -484,6 +484,6 @@ html, body {
 
 @media (max-width: 768px) {
     .photo-gallery figcaption {
-        font-size: 0.6rem;
+        display:none;
     }
 }
