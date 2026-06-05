@@ -3,6 +3,9 @@ layout: project_entry
 name: "To touch a story"
 img: "assets/images/to_touch_a_story.jpg"
 ---
+<img src="{{ '/assets/images/to_touch_a_story.jpg' | relative_url }}"
+    alt="To Touch a Story"
+    class="img-small">
 
 To Touch a Story es una instalación interactiva de robótica blanda que transforma relatos literarios en experiencias táctiles y visuales. A través del análisis emocional del texto, distintas emociones son traducidas en cambios de rigidez y color sobre una superficie robótica modular, permitiendo “sentir” una historia más allá de solo leerla.
 
