@@ -67,13 +67,13 @@ html, body {
 }
 
 .overlay {
-  display: none; /* Oculto por defecto en todas las pantallas */
+  display: none; 
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.3); /* Color oscuro */
+  background: rgba(0, 0, 0, 0.3); 
   z-index: 999;
 }
 
@@ -166,8 +166,8 @@ html, body {
 
 @media (max-width: 768px) {
     .home_container {
-        grid-template-columns: 1fr; /* Una sola columna */
-        grid-template-rows: auto auto auto; /* Tres filas: imagen, línea, contenido */
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto; 
         gap: 20px;
     }
 
@@ -175,7 +175,7 @@ html, body {
     .home_content { grid-column: 1; }
 
     .home_principal img {
-        max-width: 200px; /* Ajusta este valor al tamaño deseado */
+        max-width: 200px; 
         height: auto;
     }
 
@@ -193,8 +193,8 @@ html, body {
     }
 
     .home_content {
-        padding-bottom: 50px; /* Crea el margen al final del contenedor */
-        text-align: center;   /* Asegura que el texto se vea bien centrado */
+        padding-bottom: 50px; 
+        text-align: center;   
         margin-left: 10px;
     }
 
@@ -460,6 +460,3 @@ html, body {
     opacity: 1;
 }
 
-
-
-/*responsive*/
