@@ -17,6 +17,7 @@ html, body {
     justify-content: flex-end;
     padding: 1rem 2rem;
     gap: 20px;
+    z-index: 10000;
 }
 
 .nav-link {
@@ -28,6 +29,52 @@ html, body {
     letter-spacing: 1px;
     transition: all 0.3s ease;
     position: relative;
+}
+
+#menu-toggle, .menu-icon { display: none; flex-shrink: 0;}
+
+@media (max-width: 768px) {
+  .menu-icon { display: block; cursor: pointer; font-size: 30px; }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    padding: 60px 20px;
+    transition: right 0.3s ease;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    z-index: 9999;
+  }
+
+  #menu-toggle:checked ~ .nav-links {
+    right: 0;
+  }
+
+  #menu-toggle:checked ~ .overlay {
+    display: block; 
+  }
+
+  .nav-links .nav-link {
+    margin: 15px 0;
+    display: block;
+  }
+
+}
+
+.overlay {
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3); 
+  z-index: 999;
 }
 
 
@@ -117,22 +164,73 @@ html, body {
     margin: 0 10px;
 }
 
+@media (max-width: 768px) {
+    .home_container {
+        grid-template-columns: 1fr; 
+        grid-template-rows: auto auto auto; 
+        gap: 20px;
+    }
+
+    .home_principal { grid-column: 1; }
+    .home_content { grid-column: 1; }
+
+    .home_principal img {
+        max-width: 200px; 
+        height: auto;
+    }
+
+    .home_content h1 {
+        font-size: 1.5em;
+    }
+
+    .home_content h2 {
+        font-size: 0.8em;
+    }
+
+
+    .line {
+        display: none;
+    }
+
+    .home_content {
+        padding-bottom: 50px; 
+        text-align: center;   
+        margin-left: 10px;
+    }
+
+    .home_social_media a {
+        width: 25px;
+        height: 25px;
+        margin: 0 10px;
+    }
+
+
+}
+
 
 .project_container {
     display: grid;
     grid-row: 2;
     min-height: 100%; 
-    margin-left: 10em;
+    margin-left: clamp(20px, 10vw, 160px);
+    margin-right: clamp(20px, 10vw, 160px);
 }
 
 
 .project_container .project_details {
     display: grid;
     grid-row: 2;
-    grid-template-rows: repeat(2, 1fr);
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 10px; 
+    grid-template-rows: repeat(auto-fit, minmax(10%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 20px;
+    row-gap: 5px;
     
+}
+
+@media (min-width: 1024px) {
+    .project_container .project_details {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .project_container .project_details .project_title {
@@ -149,7 +247,6 @@ html, body {
 
 
 .publications_container {
- 
     display: flex;
     flex-direction: column;
     gap: 70px;
@@ -157,17 +254,17 @@ html, body {
 }
 
 .publications_container  .publications{
-    margin-left: 10em;
+    margin-left: clamp(20px, 10vw, 160px);
     margin-top: 5em;
 }
 
 .publications_container  .press_release{
-    margin-left: 10em;
+    margin-left: clamp(20px, 10vw, 160px);
     margin-top: 5em;
 }
 
 .publications_container  .participaciones{
-    margin-left: 10em;
+    margin-left: clamp(20px, 10vw, 160px);
     margin-top: 5em;
 }
 
@@ -181,6 +278,22 @@ html, body {
     border-radius: 25px;
     opacity: 0.9;
     transition: all 0.3s ease;
+
+}
+
+@media (max-width: 768px) {
+    .pub-card {
+        grid-template-columns: 1fr;
+        text-align: left;
+        align-items: left;
+    }
+
+    .publications_container {
+        margin: 5em 0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
 
 }
 
@@ -240,14 +353,17 @@ html, body {
 }
 
 .activities_container {
-    margin-left: 10em;
-    margin-top: 5em;
+    display: grid;
+    grid-row: 2;
+    margin-left: clamp(20px, 10vw, 160px);
+    margin-right: clamp(20px, 10vw, 160px);
+
 }
 
 .activities_grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 80px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 40px;
     margin-top: 4em;
 }
 
@@ -344,6 +460,3 @@ html, body {
     opacity: 1;
 }
 
-
-
-/*responsive*/
