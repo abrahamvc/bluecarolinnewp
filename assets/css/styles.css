@@ -125,11 +125,11 @@ html, body {
 
 .home_content p{
     font-family: 'Space Grotesk', sans-serif;
-    max-width: 600px;
+    max-width: 400px;
 }
 .home_content h1{
-    font-family: 'Pixelify Sans', sans-serif;
-    font-size: 4em;
+    font-family: 'Bytesized', sans-serif;
+    font-size: 4.2em;
 }
 
 .home_content h2 {
@@ -181,7 +181,7 @@ html, body {
     }
 
     .home_content h1 {
-        font-size: 1.5em;
+        font-size: 3em;
     }
 
     .home_content h2 {

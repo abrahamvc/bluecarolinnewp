@@ -8,7 +8,7 @@ brand_colors:
   rosado: "#f89cff"
 
 fonts:
-  logo: "'Pixelify Sans', sans-serif"
+  logo: "'Bytesized', sans-serif"
   titles: "'Overpass Mono', monospace"
   paragraphs: "'Space Grotesk', sans-serif"
 
@@ -28,8 +28,10 @@ navigation:
 collections:
   projects:
     output: true
-    permanlink: /projects/:path/
+    permalink: /projects/:path/
 
   activities:
     output: true
-    permanlink: /activities/:path/
+    permalink: /activities/:path/
+
+  

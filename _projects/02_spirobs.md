@@ -4,6 +4,10 @@ name: "SpiRobs: tipo origami"
 img: "assets/images/spirobs.jpg"
 ---
 
+<img src="{{ '/assets/images/spirobs-paper.jpg' | relative_url }}"
+    alt="SpiRobs"
+    class="img-right">
+
 SpiRobs es un proyecto de robótica blanda del artículo open-source que se viralizó por sus mecanismos espirales y movimientos dinámicos. El paper incluía material adicional para poder replicarlo, pero quise reinterpretarlo a mi manera: utilizando cartulina y técnicas tipo origami para construir una versión más accesible, visual y experimental.
 
 Este proyecto fue una mezcla entre curiosidad, fabricación manual, geometría y movimiento, explorando cómo estructuras simples pueden transformarse en sistemas robóticos sorprendentemente expresivos.

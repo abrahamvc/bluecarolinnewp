@@ -6,11 +6,19 @@ img: "assets/images/robosoft_japon.jpg"
 
 Este año 2026 tuve la oportunidad de participar en RoboSoft, una de las conferencias más importantes del mundo en robótica blanda, este año fue realizada en Japón. Fue una experiencia muy especial donde pude presentar proyectos, conocer investigaciones increíbles y conectar con personas de distintas partes del mundo que trabajan en robótica, arte, interacción y tecnología.
 
-Participé exponiendo un poster de mi “Extended Abstract” y también participé con dos piezas artísticas: una fotografía “Urban Siren” y una instalación 3d “To touch a story”
+Participé exponiendo un poster de mi “Extended Abstract” y también participé con dos piezas artísticas: una fotografía “Urban Siren” y una instalación 3d “To touch a story” (ambas quedaron en el top de las más votadas).
 
-Japón terminó siendo una inspiración enorme tanto a nivel tecnológico como artístico para mí. ✨
+Japón terminó siendo una inspiración enorme tanto a nivel tecnológico como artístico✨
 
-Les comparto algunos reels en mi instagram de esta experiencia (próximamente un video en Youtube)
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.robosoft2026.org/"  
+    class="btn-special"
+    target="blank"
+    rel="noopener noreferrer">
+    IEEE ROBOSOFT 2026
+</a>
+
+Les comparto algunos reels en mi instagram de esta experiencia (próximamente un video en Youtube y una explicación de cómo apliqué)
 
 - <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
 <a href="https://www.instagram.com/p/DWWrbFjjRH1/?img_index=1"  
