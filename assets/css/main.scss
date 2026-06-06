@@ -1,8 +1,7 @@
 ---
 ---
 // Importar fuentes desde Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Space+Grotesk:wght@300..700&family=Overpass+Mono:wght@300..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Bytesized&family=Space+Grotesk:wght@300..700&family=Overpass+Mono:wght@300..700&display=swap');
 :root {
   --color-lila: {{ site.brand_colors.lila }};
   --color-gris: {{ site.brand_colors.crema_gris }};
@@ -36,6 +35,44 @@ h1, h2, h3 {
 
 .banner-intereses {
   background-color: var(--color-gris);
+}
+
+.home-about-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-about-link:visited {
+    color: inherit;
+}
+
+.about_container {
+    max-width: 1000px;
+    margin: 4em auto;
+    padding: 0 40px;
+}
+
+.about_content {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.about_image img {
+    width: 90%;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .about_content {
+        grid-template-columns: 1fr;
+    }
+
+    .about_container {
+        padding: 0 30px;
+    }
+
 }
 
 .boton-cv {
@@ -219,3 +256,17 @@ h1, h2, h3 {
   margin: 30px 0;
 }
 
+
+.video-container {
+    width: 100%;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    margin: 20px auto;
+}
+
+.video-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 20px;
+}
