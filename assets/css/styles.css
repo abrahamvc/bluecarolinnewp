@@ -17,11 +17,12 @@ html, body {
     display: flex;
     justify-content: flex-end;
     padding: 1rem 2rem;
-    gap: 30px;
+    gap: 50px;
     z-index: 10000;
 }
 
 .nav-link {
+    
     text-decoration: none;
     color: #000000;
     font-family: 'Overpass Mono', monospace;
