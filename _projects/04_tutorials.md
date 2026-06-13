@@ -19,7 +19,7 @@ img: "assets/images/tutorials.jpg"
     class="btn-link"
     target="blank"
     rel="noopener noreferrer">
-    Guia básica de publicar en la IEEE
+    Guia básica para publicar en la IEEE
 </a>
 
 - <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
@@ -33,7 +33,7 @@ img: "assets/images/tutorials.jpg"
 (GITHUB)
 
 - <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
-<a href="https://carolinnesilva.com/projects/spirobs.html" 
+<a href="https://github.com/blueCarolinne/spirobsOrigamiVersion" 
     class="btn-link"
     target="blank"
     rel="noopener noreferrer">

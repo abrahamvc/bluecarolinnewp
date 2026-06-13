@@ -1,7 +1,7 @@
 ---
 layout: project_entry
 name: "Animaciones"
-img: "assets/images/animaciones.png"
+img: "assets/images/animaciones_03.png"
 ---
 
 Realicé animaciones con Adobe After Effects.

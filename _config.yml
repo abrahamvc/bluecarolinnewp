@@ -6,6 +6,7 @@ brand_colors:
   crema_gris: "#fcf2c8"
   azul_petroleo: "#4b4b66"
   rosado: "#f89cff"
+  azul_rey: "#4646f2"
 
 fonts:
   logo: "'Bytesized', sans-serif"
