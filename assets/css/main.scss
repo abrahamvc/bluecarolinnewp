@@ -64,6 +64,23 @@ h1, h2, h3 {
     border-radius: 20px;
 }
 
+.nav-link.active {
+    color: var(--color-lila);
+    background-color: var(--color-rey);
+    padding: 4px 10px;
+    border-radius: 12px;
+
+    margin-right: 20px;
+}
+
+.nav-link.active,
+.nav-link.active:visited {
+    color: var(--color-lila);
+    background-color: var(--color-rey);
+    padding: 4px 10px;
+    border-radius: 12px;
+}
+
 @media (max-width: 768px) {
     .about_content {
         display: flex;
@@ -87,41 +104,33 @@ h1, h2, h3 {
 
 .btn-link {
     display: inline-block;
-
     background-color: var(--color-rey);
     color: var(--color-lila);
-
     text-decoration: none;
-
     padding: 5px 14px;
-
     border: 1px solid black;
     border-radius: 15px;
-
     transition: all 0.2s ease;
 }
 
 .btn-link:hover {
     background-color: var(--color-lila);
     color: black;
-
     box-shadow: 3px 3px 0 black;
     transform: translateY(-2px);
 }
 
 .btn-link:visited {
-    color: black;
+    background-color: var(--color-rey);
+    color: var(--color-lila);
 }
 
 .img-right {
     float: right;
-
     width: 300px;
     max-width: 40%;
-
     margin-left: 30px;
     margin-bottom: 20px;
-
     border-radius: 20px;
 }
 

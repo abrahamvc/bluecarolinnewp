@@ -29,10 +29,10 @@ navigation:
 collections:
   projects:
     output: true
-    permalink: /projects/:path/
+    permalink: /proyectos/:path/
 
   activities:
     output: true
-    permalink: /activities/:path/
+    permalink: /actividades/:path/
 
   
