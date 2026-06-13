@@ -7,6 +7,7 @@
   --color-gris: {{ site.brand_colors.crema_gris }};
   --color-azul: {{ site.brand_colors.azul_petroleo }};
   --color-rosado: {{ site.brand_colors.rosado }};
+  --color-rey: {{ site.brand_colors.azul_rey }};
 }
 
 body {
@@ -87,8 +88,8 @@ h1, h2, h3 {
 .btn-link {
     display: inline-block;
 
-    background-color: var(--color-rosado);
-    color: black;
+    background-color: var(--color-rey);
+    color: var(--color-lila);
 
     text-decoration: none;
 
@@ -145,7 +146,7 @@ h1, h2, h3 {
 .btn-back {
     display: inline-block;
 
-    background-color: var(--color-gris);
+    background-color: var(--color-lila);
     color: black;
 
     text-decoration: none;
