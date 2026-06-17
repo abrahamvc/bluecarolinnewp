@@ -55,7 +55,7 @@ h1, h2, h3 {
 
 .about_content {
     display: flex;
-    gap: 40px;
+    gap: 20px;
     align-items: flex-start;
 }
 
@@ -132,6 +132,16 @@ h1, h2, h3 {
     margin-left: 30px;
     margin-bottom: 20px;
     border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .img-right {
+        float: none;
+        display: block;
+        width: 250px;
+        max-width: 50%;
+        margin: 0 auto 20px auto;
+    }
 }
 
 .img-small {
