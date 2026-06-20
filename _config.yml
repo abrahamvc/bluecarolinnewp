@@ -1,6 +1,15 @@
 baseurl: ""
 url: "https://carolinnesilva.com"
 
+exclude:
+  - CLAUDE.md
+  - .github/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .jekyll-cache/
+  - vendor/
+
 brand_colors:
   lila: "#e3bbff"
   crema_gris: "#fcf2c8"
