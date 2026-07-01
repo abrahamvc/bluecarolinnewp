@@ -1,8 +1,23 @@
-- name: "Global Soft Robotics" 
+- name: "Dar vida a lo inanimado: robótica, arte y creación personal"
   type: Charla local
-  date: Noviembre, 2025
+  organizer: Encuentro de Arte y Robótica, UOH
+  date: Mayo, 2026
   url:
 
+- name: "Las mejores oportunidades comenzaron con una pregunta"
+  type: Charla local
+  organizer: WIE IEEE, Universidad de Chile
+  date: Junio, 2026
+  url:
 
+- name: "Cap 14 Robótica Moderna | ¿Estamos Listos para Convivir con Robots?"
+  type: Podcast Human After All
+  organizer:
+  date: Junio, 2026
+  url: https://haapodcast.cl/
 
-
+- name: "Global Soft Robotics"
+  type: Charla local
+  organizer:
+  date: Noviembre, 2025
+  url:
