@@ -1,0 +1,23 @@
+- category: "Libro"
+  title: "Soft Robotics"
+  author: "Cecilia Laschi"
+  publisher: "MIT Press"
+  url: "https://mitpress.mit.edu/9780262049740/soft-robotics/"
+
+- category: "Libro"
+  title: "Handbook on Soft Robotics"
+  author: "Thrishantha Nanayakkara (ed.)"
+  publisher: "Springer"
+  url: "https://link.springer.com/book/10.1007/978-3-031-68620-7"
+
+- category: "Libro"
+  title: "Soft Robotics: Design, Modeling and Control, a Unified Approach"
+  author: "Brandon Caasenbrood, Alexander Pogromsky, Henk Nijmeijer"
+  publisher: "Springer Tracts in Advanced Robotics"
+  url: "https://link.springer.com/book/9783032260239"
+
+- category: "Libro"
+  title: "Soft Robotics: A DIY Introduction to Squishy, Stretchy, and Flexible Robots"
+  author: "Matthew Borgatti, Kari Love"
+  publisher: "Make Community"
+  url: "https://www.amazon.es/Soft-Robotics-Introduction-Stretchy-Flexible/dp/168045093X"

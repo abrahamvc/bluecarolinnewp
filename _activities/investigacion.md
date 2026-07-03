@@ -36,6 +36,22 @@ Aurora es una iniciativa de investigación y mentoría orientada a estudiantes q
 
 Aurora Research Initiative se encuentra en una etapa temprana de construcción. Actualmente, voy explorando líneas de investigación, mentorías y actividades piloto.
 
+<div class="section-divider"></div>
+
+<details class="book-toggle">
+  <summary>Material recomendado | Soft Robotics</summary>
+  <div class="book-recs">
+    {% for item in site.data.aurora_material %}
+      <a class="book-card" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+        <span class="book-category">{{ item.category }}</span>
+        <span class="book-title">{{ item.title }}</span>
+        <span class="book-author">{{ item.author }}</span>
+        <span class="book-meta">{{ item.publisher }}</span>
+      </a>
+    {% endfor %}
+  </div>
+</details>
+
 
 
 
