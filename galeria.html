@@ -15,3 +15,59 @@ permalink: /galeria/
         {% endfor %}
     </div>
 </div>
+
+<div class="lightbox" id="lightbox">
+    <button class="lightbox-close" aria-label="Cerrar">&times;</button>
+    <button class="lightbox-prev" aria-label="Anterior">&#10094;</button>
+    <img class="lightbox-img" src="" alt="">
+    <p class="lightbox-caption"></p>
+    <button class="lightbox-next" aria-label="Siguiente">&#10095;</button>
+</div>
+
+<script>
+(function () {
+    var items = {{ site.data.galeria | jsonify }};
+    var figures = document.querySelectorAll('.photo-gallery figure');
+    var lightbox = document.getElementById('lightbox');
+    var lightboxImg = lightbox.querySelector('.lightbox-img');
+    var lightboxCaption = lightbox.querySelector('.lightbox-caption');
+    var currentIndex = 0;
+
+    function openLightbox(index) {
+        currentIndex = index;
+        lightboxImg.src = items[currentIndex].image;
+        lightboxImg.alt = items[currentIndex].title;
+        lightboxCaption.textContent = items[currentIndex].title;
+        lightbox.classList.add('active');
+    }
+
+    function closeLightbox() {
+        lightbox.classList.remove('active');
+    }
+
+    function showRelative(step) {
+        openLightbox((currentIndex + step + items.length) % items.length);
+    }
+
+    figures.forEach(function (figure, index) {
+        figure.addEventListener('click', function () {
+            openLightbox(index);
+        });
+    });
+
+    lightbox.querySelector('.lightbox-close').addEventListener('click', closeLightbox);
+    lightbox.querySelector('.lightbox-prev').addEventListener('click', function () { showRelative(-1); });
+    lightbox.querySelector('.lightbox-next').addEventListener('click', function () { showRelative(1); });
+
+    lightbox.addEventListener('click', function (e) {
+        if (e.target === lightbox) closeLightbox();
+    });
+
+    document.addEventListener('keydown', function (e) {
+        if (!lightbox.classList.contains('active')) return;
+        if (e.key === 'Escape') closeLightbox();
+        if (e.key === 'ArrowRight') showRelative(1);
+        if (e.key === 'ArrowLeft') showRelative(-1);
+    });
+})();
+</script>
