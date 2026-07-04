@@ -648,7 +648,7 @@ body:has(.publications_page) .content {
     opacity: 0;
     visibility: hidden;
     transition: opacity 0.3s ease;
-    z-index: 1000;
+    z-index: 10001;
 }
 
 .lightbox.active {
