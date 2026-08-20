@@ -8,8 +8,17 @@ name: "Aurora Research Initiative"
     class="img-right">
 
 
+Tuve una cercanía muy agradable en el mundo de la investigación y todo lo que se puede aprender en el camino. Con Aurora Research Initiative quiero formar un pequeño equipo de estudiantes de pregrado interesadas/os en conocer este mundo, aprender nuevas herramientas y ganar experiencia participando poco a poco en investigación real.
 
-Aurora es una iniciativa de investigación y mentoría orientada a estudiantes de pregrado que desean desarrollar sus primeros proyectos científicos y tecnológicos. A través de una dinámica cercana y práctica, reuniones, proyectos colaborativos, posters y publicaciones, busco acercar la investigación a nuevas generaciones de investigadores.
+**¿Te gustaría unirte a mi equipo?**
+
+No necesitas experiencia previa. Durante una primera etapa te enseñaré y acompañaré en las bases: diseño y fabricación, trabajo con materiales, experimentación, lectura de papers, documentación de resultados y otras herramientas que utilizamos en investigación.
+
+La idea es aprender haciendo, equivocándonos, probando nuevamente y compartiendo lo que sabemos en un ambiente cercano y colaborativo.
+
+Si continúas creciendo dentro del equipo, podrás comenzar a acompañarme y participar en investigaciones que actualmente tengo en desarrollo. Dependiendo de tu participación y aporte en cada proyecto, también podrán surgir oportunidades de contribuir en posters, conferencias y publicaciones científicas.
+
+Aurora busca ser ese primer espacio para entrar al mundo de la investigación, entender cómo funciona desde dentro y descubrir si es un camino que también te gustaría seguir.
 
 #### Áreas de interés
 
