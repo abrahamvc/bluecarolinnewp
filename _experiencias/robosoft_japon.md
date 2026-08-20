@@ -1,0 +1,76 @@
+---
+layout: project_entry
+name: "RoboSoft Japón"
+img: "assets/images/robosoft_japon.jpg"
+---
+
+<img src="{{ '/assets/images/galeria/robosofot2.jpeg' | relative_url }}"
+    alt="RoboSoft Japón"
+    class="img-small">
+
+Este año 2026 tuve la oportunidad de participar en RoboSoft, una de las conferencias más importantes del mundo en robótica blanda, este año fue realizada en Japón. Fue una experiencia muy especial donde pude presentar proyectos, conocer investigaciones increíbles y conectar con personas de distintas partes del mundo que trabajan en robótica, arte, interacción y tecnología.
+
+Participé exponiendo un poster de mi “Extended Abstract” y también participé con dos piezas artísticas: una fotografía “Urban Siren” y una instalación 3d “To touch a story” (ambas quedaron en el top de las más votadas).
+
+Japón terminó siendo una inspiración enorme tanto a nivel tecnológico como artístico✨
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.robosoft2026.org/"  
+    class="btn-special"
+    target="blank"
+    rel="noopener noreferrer">
+    IEEE ROBOSOFT 2026
+</a>
+
+Les comparto algunos reels en mi instagram de esta experiencia
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.instagram.com/p/DWWrbFjjRH1/?img_index=1"  
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    ¡Nos vamos a Japón!
+</a>
+
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.instagram.com/p/DW9h9KkEr2D/" 
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    To touch a story
+</a>
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.instagram.com/p/DXNIIlriDo-/"  
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    RoboSoft resumen
+</a>
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.robosoft2026.org/program/art-gallery/"  
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    Art Gallery - RoboSoft 2026
+</a>
+
+Y también videos en YouTube de lo que fue la experiencia
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.youtube.com/watch?v=GcbRZoMdJpA"  
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    La semana en RoboSoft 2026
+</a>
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.youtube.com/watch?v=pSBu5Tworjk&t=5s"  
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    Visita al lab de robótica en Kanazawa
+</a>

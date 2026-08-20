@@ -38,16 +38,18 @@ docker compose down     # Stop containers
 ### Jekyll Collections
 
 - `_projects/` — Portfolio project entries (rendered at `/proyectos/:slug/`)
-- `_activities/` — Activity entries (rendered at `/actividades/:slug/`)
+- `_investigacion/` — Research entries (rendered at `/investigacion/:slug/`)
+- `_divulgacion/` — Outreach entries (rendered at `/divulgacion/:slug/`)
+- `_experiencias/` — Experience entries (rendered at `/experiencias/:slug/`; no standalone nav item — linked from the "EXPERIENCIAS" card on `publicaciones.html`)
+- `_disenadora/` — Design-profile entries (rendered at `/perfil-disenadora/:slug/`)
 
-Both collections use the `project_entry` layout and are listed in `_config.yml` under `collections`.
+All collections use the `project_entry` layout and are listed in `_config.yml` under `collections`. `_projects/`, `_investigacion/` and `_disenadora/` each have a landing page at the repo root (`proyectos.html`, `investigacion.html`, `perfil-disenadora.html`); `_divulgacion/` uses `divulgacion.html`.
 
 ### Layouts (`_layouts/`)
 
-- `default.html` — Base HTML shell; includes `menu.html` and wraps `{{ content }}`
+- `default.html` — Base HTML shell; includes `_includes/menu.html` and wraps `{{ content }}`
 - `home.html` — Homepage layout (extends `default`)
 - `project_entry.html` — Single project/activity page (extends `default`)
-- `menu.html` — Standalone menu layout used internally
 
 ### Data Files (`_data/`)
 

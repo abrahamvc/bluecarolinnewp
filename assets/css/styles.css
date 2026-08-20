@@ -35,8 +35,15 @@ html, body {
 
 #menu-toggle, .menu-icon { display: none; flex-shrink: 0;}
 
+.nav-sep {
+    opacity: 0.4;
+    margin: 0 2px;
+}
+
 @media (max-width: 768px) {
   .menu-icon { display: block; cursor: pointer; font-size: 30px; }
+
+  .nav-sep { display: none; }
 
   .nav-links {
     display: flex;
@@ -234,12 +241,10 @@ html, body {
 
 .project_container .project_details {
     display: grid;
-    grid-row: 2;
-    grid-template-rows: repeat(auto-fit, minmax(10%, 1fr));
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     column-gap: 20px;
-    row-gap: 5px;
-    
+    row-gap: 30px;
+
 }
 
 @media (min-width: 1024px) {
@@ -265,8 +270,9 @@ html, body {
 }
 
 .project_container .project_details img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
 }
 
 
@@ -280,6 +286,10 @@ html, body {
 
 body:has(.publications_page) .content {
     background: #ffffff;
+}
+
+body:has(.disenio-logos-page) .project_entry_container {
+    background-color: #ffffff;
 }
 
 .pub-card {
@@ -370,6 +380,14 @@ body:has(.publications_page) .content {
         border-radius: 0;
         padding: 20px 0;
     }
+
+    .pub-card:nth-child(3) {
+        order: 2;
+    }
+
+    .pub-card:nth-child(4) {
+        order: 1;
+    }
 }
 
 .book-toggle {
@@ -445,7 +463,6 @@ body:has(.publications_page) .content {
 .book-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
-    border-color: var(--color-rosado);
 }
 
 .book-category {
@@ -483,7 +500,7 @@ body:has(.publications_page) .content {
 
 .project_entry_container {
     display: grid;
-    grid-template-rows: 0.1fr 1fr 0.1fr;
+    grid-template-rows: auto 1fr auto;
     min-height: 100%;
     margin-left: 0;
     justify-items: center;
@@ -509,6 +526,12 @@ body:has(.publications_page) .content {
     .project_entry_container {
         padding-bottom: 30px;
     }
+    .project_entry_container h2 {
+        width: 100%;
+        padding: 0 35px;
+        box-sizing: border-box;
+        text-align: center;
+    }
     .project_entry_container .content {
         width: 100%;
         max-width: 100%;
@@ -522,11 +545,11 @@ body:has(.publications_page) .content {
 .activities_container {
     display: grid;
     grid-row: 2;
+    min-height: 100%;
 
     margin-left: clamp(20px, 10vw, 160px);
     margin-right: clamp(20px, 10vw, 160px);
 
-    margin-top: 6em;
     padding-bottom: 60px;
 }
 
@@ -554,7 +577,6 @@ body:has(.publications_page) .content {
 .activity-card:hover img {
     transform: translateY(-10px);
     filter: grayscale(0%);
-    transform: tr
 }
 
 
@@ -576,7 +598,7 @@ body:has(.publications_page) .content {
 .gallery_container {
     width: 90vw;
     max-width: 1400px;
-    margin: 5em auto;
+    margin: 2em auto 5em auto;
 }
 
 .photo-gallery {
