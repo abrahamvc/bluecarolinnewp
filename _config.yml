@@ -28,20 +28,35 @@ navigation:
     url: "/"
   - title: "PROYECTOS"
     url: "/proyectos/"
-  - title: "ACTIVIDADES"
-    url: "/actividades/"
+  - title: "INVESTIGACIÓN"
+    url: "/investigacion/"
   - title: "PUBLICACIONES"
     url: "/publicaciones/"
+  - title: "DIVULGACIÓN"
+    url: "/divulgacion/"
+  - title: "PERFIL DISEÑADORA"
+    url: "/perfil-disenadora/"
   - title: "GALERÍA"
     url: "/galeria/"
-  
+
 collections:
   projects:
     output: true
     permalink: /proyectos/:path/
 
-  activities:
+  investigacion:
     output: true
-    permalink: /actividades/:path/
+    permalink: /investigacion/:path/
 
-  
+  divulgacion:
+    output: true
+    permalink: /divulgacion/:path/
+
+  experiencias:
+    output: true
+    permalink: /experiencias/:path/
+
+  disenadora:
+    output: true
+    permalink: /perfil-disenadora/:path/
+

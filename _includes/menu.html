@@ -6,7 +6,7 @@
 
   <div class="nav-links">
       {% for link in site.navigation %}
-        <a href="{{ link.url | relative_url }}" 
+        <a href="{{ link.url | relative_url }}"
         class="nav-link
         {% if link.url == '/' and page.url == '/' %}
         active
@@ -15,6 +15,7 @@
         {% endif %}">
         {{ link.title }}
         </a>
+        {% unless forloop.last %}<span class="nav-sep">|</span>{% endunless %}
       {% endfor %}
     </div>
 
