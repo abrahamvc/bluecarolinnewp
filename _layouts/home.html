@@ -3,15 +3,44 @@ layout: default
 ---
 <div class="home_container">
     <div class="home_principal">
-        <a href="{{ '/sobre-mi/' | relative_url }}" class="home-about-link">
-
-            <div class="profile-container">
-                <img src="assets/images/main_caro.gif"
-                     alt="dibujo Caro"
-                    class="profile-image drawing">
+        <div class="profile-wrapper">
+            <div class="home_clouds" aria-label="Accesos rápidos">
+                <a href="{{ '/proyectos/' | relative_url }}" class="home_cloud home_cloud--1">proyectos</a>
+                <span class="home_cloud-burst home_cloud-burst--1" aria-hidden="true">
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                </span>
+                <a href="{{ '/investigacion/' | relative_url }}" class="home_cloud home_cloud--2">investigando ando</a>
+                <span class="home_cloud-burst home_cloud-burst--2" aria-hidden="true">
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                </span>
+                <a href="{{ '/perfil-disenadora/' | relative_url }}" class="home_cloud home_cloud--3">diseñando cositas</a>
+                <span class="home_cloud-burst home_cloud-burst--3" aria-hidden="true">
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                    <span class="home_cloud-shard"></span>
+                </span>
             </div>
-
-        </a>
+            <a href="{{ '/sobre-mi/' | relative_url }}" class="home-about-link">
+                <div class="profile-container">
+                    <img src="assets/images/main_caro.gif"
+                         alt="dibujo Caro"
+                        class="profile-image drawing">
+                </div>
+            </a>
+        </div>
         <!--<button>CV</button> -->
     </div>
     <div class="line"></div>
@@ -20,7 +49,12 @@ layout: default
             <h1>CAROLINA SILVA</h1>
             
         </a>
-        <div><h2>PORTAFOLIO | ACTIVIDADES</h2></div>
+        <a href="{{ '/proyectos/' | relative_url }}" class="home_portfolio-band home_portfolio-band--link">
+            <h2>PORTAFOLIO | ACTIVIDADES</h2>
+        </a>
+        <label for="menu-toggle" class="home_portfolio-band home_portfolio-band--menu">
+            <h2>PORTAFOLIO | ACTIVIDADES</h2>
+        </label>
         <p>Me gusta construir cosas. A veces son robots, otras veces ilustraciones, experiencias o proyectos que mezclan tecnología y creatividad.
         </p>
         <p class="home_keywords">
