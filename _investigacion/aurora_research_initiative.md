@@ -85,6 +85,9 @@ Agradezco el apoyo de estos laboratorios y departamentos por su apoyo en esta in
   <a href="https://dimec.uchile.cl/" target="_blank" rel="noopener noreferrer">
     <img class="collab-logo-lg" src="{{ '/assets/images/logos/logo-colaborador-dimec.webp' | relative_url }}" alt="DIMEC - Universidad de Chile">
   </a>
+  <a href="https://ingenieria.uchile.cl/" target="_blank" rel="noopener noreferrer">
+    <img class="collab-logo-lg" src="{{ '/assets/images/logos/logo-fcfm.png' | relative_url }}" alt="FCFM - Universidad de Chile">
+  </a>
 </div>
 
 
