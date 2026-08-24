@@ -748,6 +748,25 @@ body:has(.disenio-logos-page) .project_entry_container {
         padding: 0 35px;
         box-sizing: border-box;
     }
+
+    .collab-logos {
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        max-width: 100%;
+        gap: 24px 32px;
+    }
+
+    .collab-logos a {
+        height: 110px;
+    }
+
+    .collab-logos img {
+        max-height: 88px;
+    }
+
+    .collab-logos img.collab-logo-lg {
+        max-height: 110px;
+    }
 }
 
 
