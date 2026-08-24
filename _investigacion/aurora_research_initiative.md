@@ -1,6 +1,7 @@
 ---
 layout: project_entry
 name: "Aurora Research Initiative"
+permalink: /aurora/
 ---
 
 <img src="{{ '/assets/images/logos/logo_aurora.png' | relative_url }}"
@@ -8,7 +9,7 @@ name: "Aurora Research Initiative"
     class="img-right">
 
 
-Tuve una cercanía muy agradable en el mundo de la investigación y todo lo que se puede aprender en el camino. Con Aurora Research Initiative quiero formar un pequeño equipo de estudiantes de pregrado interesadas/os en conocer este mundo, aprender nuevas herramientas y ganar experiencia participando poco a poco en investigación real.
+Tuve una cercanía muy agradable en el mundo de la investigación y todo lo que se puede aprender en el camino. Con Aurora Research Initiative quiero formar un pequeño equipo de estudiantes de **pre-grado de la Universidad de Chile** interesadas/os en conocer este mundo, aprender nuevas herramientas y ganar experiencia participando poco a poco en investigación real.
 
 **¿Te gustaría unirte a mi equipo?**
 
@@ -71,8 +72,20 @@ Abriré las postulaciones para el Área de Soft Robotics ✨
   </div>
 </details>
 
+<div class="section-divider"></div>
 
+#### Colaboradores
 
+Agradezco el apoyo de estos laboratorios y departamentos por su apoyo en esta iniciativa.
+
+<div class="collab-logos">
+  <a href="https://www.laboratoriolemur.cl" target="_blank" rel="noopener noreferrer">
+    <img src="{{ '/assets/images/logos/logo_lemur_azul.png' | relative_url }}" alt="Laboratorio LEMUR">
+  </a>
+  <a href="https://dimec.uchile.cl/" target="_blank" rel="noopener noreferrer">
+    <img class="collab-logo-lg" src="{{ '/assets/images/logos/logo-colaborador-dimec.webp' | relative_url }}" alt="DIMEC - Universidad de Chile">
+  </a>
+</div>
 
 
 
