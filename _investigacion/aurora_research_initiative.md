@@ -76,7 +76,7 @@ Abriré las postulaciones para el Área de Soft Robotics ✨
 
 #### Colaboradores
 
-Agradezco el apoyo de estos laboratorios y departamentos por su apoyo en esta iniciativa.
+Agradezco a estos laboratorios y departamentos por su apoyo y colaboración en el desarrollo de esta iniciativa.
 
 <div class="collab-logos">
   <a href="https://www.laboratoriolemur.cl" target="_blank" rel="noopener noreferrer">
