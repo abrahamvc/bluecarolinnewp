@@ -88,6 +88,9 @@ Agradezco el apoyo de estos laboratorios y departamentos por su apoyo en esta in
   <a href="https://ingenieria.uchile.cl/" target="_blank" rel="noopener noreferrer">
     <img class="collab-logo-lg" src="{{ '/assets/images/logos/logo-fcfm.png' | relative_url }}" alt="FCFM - Universidad de Chile">
   </a>
+    <a href="https://www.instagram.com/fablabudechile/" target="_blank" rel="noopener noreferrer">
+    <img class="collab-logo-lg" src="{{ '/assets/images/logos/logo_fablab.png' | relative_url }}" alt="FabLab Universidad de Chile">
+  </a>
 </div>
 
 
