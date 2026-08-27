@@ -87,3 +87,28 @@ Y el evento principal: Competencia Robótica! Que reúne a estudiantes y entusia
 </a>
 
 
+<div class="section-divider"></div>
+
+
+## Laboratorio LEMUR Universidad de Chile
+
+El Laboratorio LEMUR está enfocado en el desarrollo de robótica con énfasis en hardware, diseño y construcción de sistemas robóticos. Forma parte del Departamento de Ingeniería Mecánica (DIMEC) de la Universidad de Chile.
+
+Actualmente, su trabajo se centra en el desarrollo de proyectos de robótica y en potenciar la enseñanza en los cursos de Mecatrónica y Robótica, incorporando experiencias prácticas, prototipos e instalaciones dinámicas que acercan la robótica a estudiantes y a la comunidad.
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://www.instagram.com/lab_lemur" 
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    Instagram LEMUR
+</a>
+
+
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="https://laboratoriolemur.cl/" 
+    class="btn-link"
+    target="_blank"
+    rel="noopener noreferrer">
+    Página web LEMUR
+</a>
