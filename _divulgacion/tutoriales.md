@@ -4,6 +4,14 @@ name: "Tutoriales"
 img: "assets/images/tutorials.jpg"
 ---
 
+- <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
+<a href="{{ '/divulgacion/tarjetas-perforadas' | relative_url }}"
+    class="btn-link"
+    target="blank"
+    rel="noopener noreferrer">
+    Tarjetas Perforadas
+</a>
+
 (INSTAGRAM)
 
 - <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 
