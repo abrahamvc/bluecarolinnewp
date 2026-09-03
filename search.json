@@ -1,0 +1,25 @@
+---
+layout: null
+permalink: /search.json
+---
+{% capture items %}
+{% for link in site.navigation %},{"title": "{{ link.title | escape }}", "url": "{{ link.url | relative_url }}", "type": "Sección"}
+{% endfor %}
+,{"title": "SOBRE MÍ", "url": "{{ '/sobre-mi/' | relative_url }}", "type": "Sección"}
+{% for collection in site.collections %}
+{% unless collection.label == "posts" %}
+{% for doc in collection.docs %}
+{% case collection.label %}
+{% when "projects" %}{% assign type_label = "Proyecto" %}
+{% when "investigacion" %}{% assign type_label = "Investigación" %}
+{% when "divulgacion" %}{% assign type_label = "Divulgación" %}
+{% when "experiencias" %}{% assign type_label = "Experiencia" %}
+{% when "disenadora" %}{% assign type_label = "Perfil diseñadora" %}
+{% else %}{% assign type_label = collection.label %}
+{% endcase %}
+,{"title": "{{ doc.name | default: doc.title | escape }}", "url": "{{ doc.url | relative_url }}", "type": "{{ type_label }}", "keywords": "{{ doc.keywords | join: ' ' | escape }}"}
+{% endfor %}
+{% endunless %}
+{% endfor %}
+{% endcapture %}
+[{{ items | strip | slice: 1, 999999 }}]

@@ -2,6 +2,7 @@
 layout: project_entry
 name: "Mail Club"
 img: "assets/images/mailclub_01.jpg"
+keywords: ["diseño", "ilustración"]
 ---
 
 <img src="{{ '/assets/images/mailclub_02.jpg' | relative_url }}"

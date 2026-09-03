@@ -2,6 +2,7 @@
 layout: project_entry
 name: "Animaciones"
 img: "assets/images/animaciones_03.png"
+keywords: ["diseño", "ilustración", "motion graphics", "after effects"]
 ---
 
 Realicé animaciones con Adobe After Effects.

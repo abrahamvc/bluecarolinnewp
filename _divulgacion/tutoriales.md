@@ -2,6 +2,7 @@
 layout: project_entry
 name: "Tutoriales"
 img: "assets/images/tutorials.jpg"
+keywords: ["soldadura", "soldar", "tarjetas perforadas", "IEEE", "publicaciones", "soft robotics", "libros", "spirobs", "origami", "github"]
 ---
 
 - <img class="md-icon" src="{{ '/assets/icons/star.svg' | relative_url }}" alt="Star Icon"> 

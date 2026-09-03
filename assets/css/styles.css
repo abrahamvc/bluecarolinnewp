@@ -16,7 +16,7 @@ html, body {
 .navbar{
     display: flex;
     justify-content: flex-end;
-    padding: 1rem 2rem;
+    padding: 1rem 2rem 1rem 0.5rem;
     gap: 50px;
     z-index: 10000;
     pointer-events: none;
@@ -959,5 +959,87 @@ body:has(.disenio-logos-page) .project_entry_container {
     .lightbox-close {
         top: 1em;
         right: 1em;
+    }
+}
+
+.search-widget {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.search-icon-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.search-icon-btn svg {
+    width: 22px;
+    height: 22px;
+}
+
+.search-box {
+    position: absolute;
+    top: 140%;
+    right: 0;
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(4px);
+    border: 2px solid black;
+    border-radius: 12px;
+    padding: 10px;
+    width: 220px;
+    box-shadow: 3px 3px 0 black;
+    z-index: 10001;
+}
+
+.search-box[hidden] {
+    display: none;
+}
+
+#search-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 6px 8px;
+    border: 1px solid var(--color-azul);
+    border-radius: 8px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#search-results {
+    list-style: none;
+    margin: 8px 0 0;
+    padding: 0;
+    max-height: 220px;
+    overflow-y: auto;
+}
+
+#search-results li a {
+    display: block;
+    padding: 6px 4px;
+    text-decoration: none;
+    color: black;
+    font-size: 0.85rem;
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.15);
+}
+
+#search-results li a:hover {
+    color: var(--color-rey);
+}
+
+#search-results .search-no-results {
+    padding: 6px 4px;
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
+
+@media (max-width: 768px) {
+    .search-box {
+        right: -10px;
+        width: 200px;
     }
 }
