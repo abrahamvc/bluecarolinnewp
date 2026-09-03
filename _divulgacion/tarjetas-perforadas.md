@@ -44,7 +44,7 @@ Usé el simulador **The Virtual Keypunch de MASSWERK** (es fabuloso y sencillo, 
 
 Presiona "Start" y ahí puedes escribir un **mensaje** o **una línea de código** y convertirla en el patrón de perforaciones de una tarjeta IBM de 80 columnas.
 
-El simulador incluye FORTRAN, COBOL, incluso Python como una opción moderna y recreativa. Python no fue utilizado históricamente con tarjetas perforadas, pero esta alternativa hace que sea una experiencia retro moderna (me encanta).
+En la parte superior de la ventana puedes elegir el lenguaje que deseas utilizar (en "Card Type"). El simulador incluye FORTRAN, COBOL, incluso Python como una opción moderna y recreativa. Python no fue utilizado históricamente con tarjetas perforadas, pero esta alternativa hace que sea una experiencia retro moderna (me encanta).
 
 <img src="{{ '/assets/images/tarjeta_keypunch.png' | relative_url }}"
     alt="Simulador The Virtual Keypunch"
@@ -53,6 +53,10 @@ El simulador incluye FORTRAN, COBOL, incluso Python como una opción moderna y r
 Recuerda que, si te equivocaste, no hay forma de "arreglarlo". Debes usar una nueva tarjeta. Incluso si presionas la tecla de "borrar", automáticamente te mueve a una nueva tarjeta. Así fue en décadas anteriores. Nada de ctrl+z
 
 Cuando ya la tengas lista, presiona Enter y se generará tu imagen en PNG, lista para descargar. Lo bueno de este formato es que respeta las transparencias y, justamente, las perforaciones generadas quedan transparentes.
+
+<img src="{{ '/assets/images/tarjeta_captura.png' | relative_url }}"
+    alt="Simulador The Virtual Keypunch"
+    class="img-small">
 
 Si la quieres "crear" en una tarjeta real, puedes hacerlo de diferentes formas. Yo usé un plotter de corte Silhouette Cameo 4.
 Ajusté el tamaño de mis tarjetas (como referencia, las tarjetas IBM reales tenían una dimensión aproximada de 187 × 83 mm) y las imprimí en papel fotográfico matte de 260g.
