@@ -1,6 +1,7 @@
 ---
 layout: project_entry
 name: "Diseño de identidad"
+keywords: ["diseño", "logotipos", "logos", "identidad visual", "ilustración", "gráfica"]
 ---
 <div class="disenio-logos-page"></div>
 

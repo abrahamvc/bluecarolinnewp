@@ -1,5 +1,18 @@
 <nav class="navbar">
 
+  <div class="search-widget" data-search-url="{{ '/search.json' | relative_url }}">
+    <button type="button" id="search-toggle" class="search-icon-btn" aria-label="Buscar" aria-expanded="false">
+      <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <circle cx="10.5" cy="10.5" r="6.5" stroke="black" stroke-width="2"/>
+        <line x1="15.2" y1="15.2" x2="21" y2="21" stroke="black" stroke-width="2.2" stroke-linecap="round"/>
+      </svg>
+    </button>
+    <div class="search-box" id="search-box" hidden>
+      <input type="text" id="search-input" placeholder="Buscar..." autocomplete="off">
+      <ul id="search-results"></ul>
+    </div>
+  </div>
+
   <input type="checkbox" id="menu-toggle">
   <label for="menu-toggle" class="menu-icon">&#9776;</label>
   <label for="menu-toggle" class="overlay"></label>

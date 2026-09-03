@@ -43,6 +43,7 @@ Usé el simulador **The Virtual Keypunch de MASSWERK** (es fabuloso y sencillo, 
     rel="noopener noreferrer">
     The Virtual Keypunch
 </a>
+
 Presiona "Start" y ahí puedes escribir un **mensaje** o **una línea de código** y convertirla en el patrón de perforaciones de una tarjeta IBM de 80 columnas.
 
 En la parte superior de la ventana puedes elegir el lenguaje que deseas utilizar (en "Card Type"). El simulador incluye FORTRAN, COBOL, incluso Python como una opción moderna y recreativa. Python no fue utilizado históricamente con tarjetas perforadas, pero esta alternativa hace que sea una experiencia retro moderna (me encanta).

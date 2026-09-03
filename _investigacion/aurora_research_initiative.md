@@ -2,6 +2,7 @@
 layout: project_entry
 name: "Aurora Research Initiative"
 permalink: /aurora/
+keywords: ["soft robotics", "human-robot interaction", "art and technology", "steam education", "investigación", "postulaciones"]
 ---
 
 <img src="{{ '/assets/images/logos/logo_aurora.png' | relative_url }}"
