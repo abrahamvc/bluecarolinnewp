@@ -9,8 +9,17 @@ keywords: ["soft robotics", "human-robot interaction", "art and technology", "st
     alt="Aurora Research Initiative"
     class="img-right">
 
+Aurora Research es mi iniciativa de investigación y mentoría en Robótica Blanda.
 
-Tuve una cercanía muy agradable en el mundo de la investigación y todo lo que se puede aprender en el camino. Con Aurora Research Initiative quiero formar un pequeño equipo de estudiantes de **pre-grado de la Universidad de Chile** interesadas/os en conocer este mundo, aprender nuevas herramientas y ganar experiencia participando poco a poco en investigación real.
+Nace con la idea de formar un pequeño equipo que trabaje conmigo en el desarrollo de proyectos de investigación reales, participando activamente en distintas etapas del proceso: diseño, fabricación, experimentación, análisis y documentación científica.
+
+A través de este trabajo conjunto, busco avanzar en mis propias líneas de investigación y, al mismo tiempo, acompañar a estudiantes que quieran conocer de cerca cómo se construye un proyecto científico. La idea es que puedan aprender haciendo, adquirir experiencia en investigación y desarrollar herramientas que les permitan participar en pósters, publicaciones y futuros proyectos.
+
+Aurora es, para mí, una forma de construir investigación en equipo: compartir lo que he aprendido, desarrollar nuevas ideas y formar un espacio cercano y creativo para hacer ciencia.
+
+<!--
+Tuve una cercanía muy agradable en el mundo de la investigación y todo lo que se puede aprender en el camino. Con Aurora Research Initiative quiero formar un equipo de estudiantes de **pre-grado** interesadas/os en conocer este mundo, aprender nuevas herramientas y ganar experiencia participando poco a poco en investigación real.
+
 
 **¿Te gustaría unirte a mi equipo?**
 
@@ -21,6 +30,7 @@ La idea es aprender haciendo, equivocándonos, probando nuevamente y compartiend
 Si continúas creciendo dentro del equipo, podrás comenzar a acompañarme y participar en investigaciones que actualmente tengo en desarrollo. Dependiendo de tu participación y aporte en cada proyecto, también podrán surgir oportunidades de contribuir en posters, conferencias y publicaciones científicas.
 
 Aurora busca ser ese primer espacio para entrar al mundo de la investigación, entender cómo funciona desde dentro y descubrir si es un camino que también te gustaría seguir.
+-->
 
 #### Áreas de interés
 
@@ -44,6 +54,7 @@ Aurora busca ser ese primer espacio para entrar al mundo de la investigación, e
   STEAM Education
 </p>
 
+<!--
 Abriré las postulaciones para el Área de Soft Robotics ✨
 ¿Te gustaría ser parte?
 
@@ -56,7 +67,7 @@ Abriré las postulaciones para el Área de Soft Robotics ✨
     Postula aquí
 </a>
 </p>
-
+-->
 <div class="section-divider"></div>
 
 <details class="book-toggle">
