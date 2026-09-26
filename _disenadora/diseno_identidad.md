@@ -10,18 +10,81 @@ En mi faceta como diseñadora, realicé diversas piezas gráficas de identidad v
 
 Aquí algunos de ellos:
 
-<div class="logo-gallery">
-
-  <img src="{{ '/assets/images/logos/logo-01.png' | relative_url }}" alt="Logo 1">
-  <img src="{{ '/assets/images/logos/logo-02.png' | relative_url }}" alt="Logo 2">
-  <img src="{{ '/assets/images/logos/logo-03.png' | relative_url }}" alt="Logo 3">
-  <img src="{{ '/assets/images/logos/logo-04.png' | relative_url }}" alt="Logo 4">
-  <img src="{{ '/assets/images/logos/logo-05.png' | relative_url }}" alt="Logo 5">
-  <img src="{{ '/assets/images/logos/logo-06.png' | relative_url }}" alt="Logo 6">
-  <img src="{{ '/assets/images/logos/logo-07.png' | relative_url }}" alt="Logo 7">
-  <img src="{{ '/assets/images/logos/logo-08.png' | relative_url }}" alt="Logo 8">
-
+<div class="logo-showcase">
+  <div class="logo-showcase-stage">
+    <div class="logo-showcase-main logo-sticker"><img src="{{ '/assets/images/logos/logo-01.png' | relative_url }}" alt="Logo 1"></div>
+  </div>
+  <div class="logo-showcase-thumbs">
+  {%- for i in (1..11) -%}
+    {%- capture num -%}{% if i < 10 %}0{% endif %}{{ i }}{%- endcapture %}
+    <button type="button" class="logo-thumb logo-sticker{% if forloop.first %} is-active{% endif %}" style="--i: {{ forloop.index0 }};"><img src="{{ '/assets/images/logos/logo-' | append: num | append: '.png' | relative_url }}" alt="Logo {{ i }}"></button>
+  {%- endfor %}
+  </div>
 </div>
+
+<script>
+(function () {
+  var showcase = document.querySelector('.logo-showcase');
+  if (!showcase) return;
+  var main = showcase.querySelector('.logo-showcase-main img');
+  var thumbs = [].slice.call(showcase.querySelectorAll('.logo-thumb'));
+  var current = 0;
+  var picked = false;
+  var timer;
+
+  function show(i) {
+    if (i === current) return;
+    thumbs[current].classList.remove('is-active');
+    thumbs[i].classList.add('is-active');
+    current = i;
+    var img = thumbs[i].querySelector('img');
+    main.style.opacity = 0;
+    setTimeout(function () {
+      main.src = img.src;
+      main.alt = img.alt;
+      main.style.opacity = 1;
+    }, 200);
+  }
+
+  function pick(i) {
+    clearInterval(timer);
+    picked = true;
+    show(i);
+  }
+
+  function step(n) {
+    pick((current + n + thumbs.length) % thumbs.length);
+  }
+
+  thumbs.forEach(function (thumb, i) {
+    thumb.addEventListener('mouseenter', function () { pick(i); });
+    thumb.addEventListener('focus', function () { pick(i); });
+    thumb.addEventListener('click', function () { pick(i); });
+  });
+
+  var touchX = null;
+  main.parentElement.addEventListener('touchstart', function (e) { touchX = e.touches[0].clientX; }, { passive: true });
+  main.parentElement.addEventListener('touchend', function (e) {
+    if (touchX === null) return;
+    var dx = e.changedTouches[0].clientX - touchX;
+    touchX = null;
+    if (Math.abs(dx) > 40) step(dx < 0 ? 1 : -1);
+  });
+
+  document.addEventListener('keydown', function (e) {
+    if (!picked || (e.target.closest && e.target.closest('input, textarea, select'))) return;
+    if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+      e.preventDefault();
+      step(e.key === 'ArrowRight' ? 1 : -1);
+      if (showcase.contains(document.activeElement)) thumbs[current].focus();
+    }
+  });
+
+  if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    timer = setInterval(function () { show((current + 1) % thumbs.length); }, 3000);
+  }
+})();
+</script>
 
 
 <div class="section-divider"></div>
